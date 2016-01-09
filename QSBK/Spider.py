@@ -3,7 +3,7 @@ import re
 URL='http://www.qiushibaike.com/text'
 HEADERS={'User-Agent':'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'}
 RE=r'<div class="content">(?P<content>.*?)<!--'
-
+# 远程增加一行文字
 class Spider(object):
     def __init__(self):
         '''
